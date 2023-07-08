@@ -1,4 +1,48 @@
-h1 {
-  border: 800, 800, 800, 800;
-  background-color: aqua;
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+}
+.conteiner {
+  width: 1158px;
+
+}
+body {
+  background-color: #ffffff;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+
+/* logo */
+
+.link {
+  color: #2e2f42;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.sidebar {
+  height: 72px;
+}
+
+.menu_nav {
+}
+.menu_nav_item {
+}
+.menu_contacts {
 }
