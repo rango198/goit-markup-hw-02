@@ -43,11 +43,13 @@
 }
 
 .sidebar {
-  height: 72px;
 }
 
 .menu_contacts {
   list-style: none;
+}
+
+.address_menu_contakts{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -67,7 +69,3 @@
   list-style: none;
 }
 
-
-h1 {
-margin: auto;
-}
