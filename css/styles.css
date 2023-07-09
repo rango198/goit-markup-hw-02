@@ -6,7 +6,7 @@
 .conteiner {
   width: 1158px;
 }
-body {
+.body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
@@ -14,8 +14,25 @@ body {
 
 /* logo */
 
-.link {
+.menu_logo {
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+
+.menu_logo:hover .menu_logo:focus {
+  color: #404bbf;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.17;
@@ -24,22 +41,33 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo{
-color: #2e2f42;
-}
-
-.link:hover {
-}
 
 .sidebar {
   height: 72px;
 }
 
-.list {
+.menu_contacts {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.list-contacs:hover .list-contacs:focus {
+  color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+
+h1 {
+margin: auto;
 }
