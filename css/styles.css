@@ -7,7 +7,7 @@
   width: 1158px;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -16,31 +16,18 @@ body {
 
 .link {
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  line-height: 1.17;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.03em;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  text-transform: uppercase;
-  text-decoration: none;
+  line-height: 1.17;
 }
 
 .link:hover {
-  color: #4d5ae5;
-  font-family: "Raleway";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  text-transform: uppercase;
 }
 
 .sidebar {
   height: 72px;
 }
 
-.list{
+.list {
   list-style: none;
 }
