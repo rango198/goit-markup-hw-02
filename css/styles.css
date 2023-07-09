@@ -39,22 +39,28 @@
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
-.sidebar {
+.sidebar_nav {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .menu_contacts {
   list-style: none;
 }
 
-.address_menu_contakts{
+.address_menu_contakts {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
+}
+.address {
+  font-style: normal;
 }
 
 .list-contacs:hover .list-contacs:focus {
@@ -69,3 +75,29 @@
   list-style: none;
 }
 
+/* tite_main */
+
+.section_title_main {
+  background-color: #2e2f42;
+}
+
+.title_main {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.main_button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.main_button:hover .main_button:focus {
+  background-color: #404bbf;
+}
