@@ -7,7 +7,7 @@
   width: 1158px;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -16,9 +16,16 @@ body {
 
 .link {
   color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.17;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo{
+color: #2e2f42;
 }
 
 .link:hover {
@@ -30,4 +37,9 @@ body {
 
 .list {
   list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
