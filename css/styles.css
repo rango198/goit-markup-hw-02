@@ -6,9 +6,7 @@
   --cloud: #f4f4fd;
   --ocean: #404bbf;
 }
-.conteiner {
-  width: 1158px;
-}
+
 .body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
@@ -144,4 +142,47 @@
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer_menu_logo{
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.footer_logo{
+color: var(--cloud);
+}
+
+.footer_text{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
+
+
+/* PORTFOLIO */
+
+.portfolio_body{
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+}
+
+.portfolio_button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.portfolio_button:hover, .portfolio_button:focus{
+  color: var(--white);
+  background-color: var(--ocean);
 }
