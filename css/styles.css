@@ -123,10 +123,11 @@ body {
   text-transform: capitalize;
 }
 
-.title-doing {
-  background-color: #ffffff;
-}
 
+
+.title-photo-list{
+  background-color: var(--white);
+}
 
 
 /*------------------------------------------- section_title_team------------------------- */
