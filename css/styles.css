@@ -127,7 +127,7 @@ body {
 /*------------------------------------------- section_title_team------------------------- */
 
 .section_title_team {
-  background-color: var(--white);
+  background-color: var(--cloud);
 }
 
 .title_team {
@@ -137,6 +137,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-transform: capitalize;
+}
+
+.section-team{
+background-color: var(--white);
 }
 
 /*----------------------------------- footer--------------------- */
