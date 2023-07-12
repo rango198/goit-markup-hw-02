@@ -7,13 +7,13 @@
   --ocean: #404bbf;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
   color: var(--slate);
 }
 
-/* logo */
+/*--------------------------------------------------------- logo---------------------- */
 
 .menu_logo {
   color: var(--iris);
@@ -67,7 +67,7 @@
   color: var(--ocean);
 }
 
-/* tite_main */
+/*------------------------------------------ tite_main-------------------------- */
 
 .section_title_main {
   background-color: var(--navyblue);
@@ -95,7 +95,7 @@
   background-color: var(--ocean);
 }
 
-/* skills */
+/*------------------------------------------------ skills------------------------ */
 
 .title_skills {
   font-weight: 500;
@@ -112,7 +112,7 @@
   color: var(--slate);
 }
 
-/* photo */
+/*---------------------------------------------section photo-------------------------- */
 
 .title_main_photo {
   font-size: 36px;
@@ -126,11 +126,10 @@
 .title-doing {
   background-color: #ffffff;
 }
-.title-list {
-  background-color: #ffffff;
-}
 
-/* section_title_team */
+
+
+/*------------------------------------------- section_title_team------------------------- */
 
 .section_title_team {
   background-color: var(--cloud);
@@ -145,7 +144,7 @@
   text-transform: capitalize;
 }
 
-/* footer */
+/*----------------------------------- footer--------------------- */
 
 .footer {
   background-color: #2e2f42;
@@ -171,7 +170,7 @@
   color: var(--cloud);
 }
 
-/* PORTFOLIO */
+/*----------------------------------------------- PORTFOLIO--------------------------- */
 
 .portfolio_body {
   font-family: "Roboto", sans-serif;
@@ -202,7 +201,7 @@
   color: var(--navyblue);
 }
 
-.portfolio-tex {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
