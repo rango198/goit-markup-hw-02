@@ -123,22 +123,11 @@ body {
   text-transform: capitalize;
 }
 
-.title-doing {
-  background-color: #ffffff;
-}
-
-.title-photo-list {
-  background-color: var(--white);
-}
-
-.title-list {
-  background-color: var(--white);
-}
 
 /*------------------------------------------- section_title_team------------------------- */
 
 .section_title_team {
-  background-color: var(--cloud);
+  background-color: var(--white);
 }
 
 .title_team {
