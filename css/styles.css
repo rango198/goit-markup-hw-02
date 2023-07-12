@@ -123,15 +123,14 @@
   text-transform: capitalize;
 }
 
-.title-doing{
-  background-color: #FFFFFF;
+.title-doing {
+  background-color: #ffffff;
 }
-.title-list{
-  background-color: #FFFFFF;
+.title-list {
+  background-color: #ffffff;
 }
 
 /* section_title_team */
-
 
 .section_title_team {
   background-color: var(--cloud);
@@ -152,7 +151,7 @@
   background-color: #2e2f42;
 }
 
-.footer_menu_logo{
+.footer_menu_logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
@@ -162,26 +161,24 @@
   text-transform: uppercase;
 }
 
-.footer_logo{
-color: var(--cloud);
+.footer_logo {
+  color: var(--cloud);
 }
 
-.footer_text{
+.footer_text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
 
-
 /* PORTFOLIO */
 
-
-.portfolio_body{
+.portfolio_body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
 }
 
-.portfolio_button{
+.portfolio_button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -191,12 +188,13 @@ color: var(--cloud);
   background-color: var(--cloud);
   cursor: pointer;
 }
-.portfolio_button:hover, .portfolio_button:focus{
+.portfolio_button:hover,
+.portfolio_button:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
 
-.portfolio-item{
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -204,7 +202,7 @@ color: var(--cloud);
   color: var(--navyblue);
 }
 
-.portfolio-tex{
+.portfolio-tex {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
