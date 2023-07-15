@@ -108,6 +108,7 @@ body {
 
 .section_title_main {
   background-color: var(--navyblue);
+  padding: 188px 0;
 }
 
 .title_main {
@@ -116,9 +117,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-  display: block;
-  width: 496px;
-  
+  max-width: 496px;
+  margin: auto;
 }
 .main_button {
   background-color: var(--iris);
@@ -128,6 +128,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: auto;
 }
 .main_button:hover,
 .main_button:focus {
