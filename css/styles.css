@@ -21,6 +21,7 @@ body {
 
 .conteiner_header {
   display: flex;
+  margin: auto;
 }
 
 .conteiner {
@@ -28,6 +29,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 
 /*--------------------------------------------------------- logo---------------------- */
 
