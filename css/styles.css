@@ -21,7 +21,6 @@ body {
 
 .conteiner_header {
   display: flex;
-  margin: auto;
 }
 
 .conteiner {
@@ -36,6 +35,7 @@ body {
 .menu_nav {
   display: flex;
   align-items: center;
+  margin: auto;
 }
 
 .menu_logo {
