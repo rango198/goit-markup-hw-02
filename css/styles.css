@@ -16,6 +16,7 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 
@@ -299,6 +300,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  padding: 0;
 }
 
 .portfolio-text {
