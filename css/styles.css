@@ -230,6 +230,7 @@ img {
 .section-team {
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .empl_position {
   text-align: center;
