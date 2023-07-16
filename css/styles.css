@@ -19,6 +19,19 @@ img {
   max-width: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* -----------------------------------------------------header---------------------------------- */
 
@@ -34,7 +47,6 @@ img {
 
 .container_header {
   display: flex;
-  
 }
 
 /*--------------------------------------------------------- logo---------------------- */
@@ -144,6 +156,7 @@ img {
   border: none;
   border-radius: 4px;
   margin: auto;
+  cursor: pointer;
 }
 .main_button:hover,
 .main_button:focus {
@@ -159,10 +172,12 @@ img {
 
 .skills_list {
   display: flex;
+  gap: 24px;
+  padding: 0;
 }
 
-.list_iteam {
-  width: calc((100% - 48px) / 3);
+.list_item {
+  width: calc((100% - 72px) / 4);
 }
 
 .title_skills {
@@ -269,6 +284,10 @@ img {
 
 /*----------------------------------------------- PORTFOLIO--------------------------- */
 
+.title-portfolio {
+  padding: 96px 0 120px 0;
+}
+
 .portfolio_button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -287,6 +306,7 @@ img {
   color: var(--white);
   background-color: var(--ocean);
   border: 1px solid;
+  border: 1px solid transparent;
 }
 
 .porfolio_but_list {
@@ -300,7 +320,26 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
   padding: 0;
+}
+
+.portfolio_list_item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  margin-bottom: 8px;
+}
+.portfolio-title_text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-text {
