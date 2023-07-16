@@ -210,6 +210,7 @@ img {
 
 .section_title_team {
   background-color: var(--cloud);
+  padding: 120px 0;
 }
 
 .title_team {
@@ -218,7 +219,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-transform: capitalize;
-  padding: 120px 0;
   text-align: center;
 }
 
