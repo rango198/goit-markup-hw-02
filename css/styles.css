@@ -13,6 +13,10 @@ body {
   color: var(--slate);
 }
 
+img{
+max-width: 100%;
+}
+
 /* -----------------------------------------------------header---------------------------------- */
 
 .header {
@@ -197,6 +201,11 @@ body {
 
 .title-photo-list {
   display: flex;
+  gap: 24px;
+}
+
+.title-list{
+
 }
 
 /*------------------------------------------- section_title_team------------------------- */
@@ -212,6 +221,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-transform: capitalize;
+  padding-top: 120px;
+}
+
+.list_team {
+display: flex;
+gap: 24px;
 }
 
 .section-team {
