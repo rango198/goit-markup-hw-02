@@ -13,8 +13,8 @@ body {
   color: var(--slate);
 }
 
-img{
-max-width: 100%;
+img {
+  max-width: 100%;
 }
 
 /* -----------------------------------------------------header---------------------------------- */
@@ -186,7 +186,6 @@ max-width: 100%;
 
 .title-doing {
   padding: 120px 0;
-  margin-bottom: 72px;
 }
 
 .title_main_photo {
@@ -196,7 +195,7 @@ max-width: 100%;
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-transform: capitalize;
-  
+  margin-bottom: 72px;
 }
 
 .title-photo-list {
@@ -204,8 +203,7 @@ max-width: 100%;
   gap: 24px;
 }
 
-.title-list{
-
+.title-list {
 }
 
 /*------------------------------------------- section_title_team------------------------- */
@@ -217,20 +215,24 @@ max-width: 100%;
 .title_team {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-transform: capitalize;
-  padding-top: 120px;
+  padding: 120px 0;
+  text-align: center;
 }
 
 .list_team {
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .section-team {
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
+}
+.empl_position {
+  text-align: center;
 }
 
 /*----------------------------------- footer--------------------- */
