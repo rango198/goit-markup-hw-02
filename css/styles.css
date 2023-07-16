@@ -14,7 +14,12 @@ body {
 }
 
 img {
-  max-width: 100%;
+  display: block;
+}
+
+.title_main_skills,
+.port_main_title {
+  visibility: hidden;
 }
 
 /* -----------------------------------------------------header---------------------------------- */
@@ -148,18 +153,12 @@ img {
 
 /*------------------------------------------------ skills------------------------ */
 
-.title_main_skills {
-  visibility: hidden;
-}
-
 .section_skills {
   padding: 120px 0;
 }
 
 .skills_list {
   display: flex;
-  margin: 0 auto;
-  gap: 24px;
 }
 
 .list_iteam {
@@ -203,9 +202,6 @@ img {
   gap: 24px;
 }
 
-.title-list {
-}
-
 /*------------------------------------------- section_title_team------------------------- */
 
 .section_title_team {
@@ -220,6 +216,7 @@ img {
   color: var(--navyblue);
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .list_team {
@@ -234,12 +231,19 @@ img {
 }
 .empl_position {
   text-align: center;
+  padding: 32px 16px;
 }
 
 /*----------------------------------- footer--------------------- */
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer_menu_logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer_menu_logo {
@@ -260,14 +264,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  max-width: 264px;
 }
 
 /*----------------------------------------------- PORTFOLIO--------------------------- */
-
-.portfolio_body {
-  font-family: "Roboto", sans-serif;
-  color: var(--slate);
-}
 
 .portfolio_button {
   font-family: "Roboto", sans-serif;
@@ -278,19 +278,29 @@ img {
   color: var(--iris);
   background-color: var(--cloud);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .portfolio_button:hover,
 .portfolio_button:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid;
 }
 
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navyblue);
+.porfolio_but_list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.title-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+
 }
 
 .portfolio-text {
