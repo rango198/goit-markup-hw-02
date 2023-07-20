@@ -11,7 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
   color: var(--slate);
-  max-width: 1440px
+  max-width: 1440px;
 }
 
 img {
@@ -19,9 +19,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-ul,
-li {
 
+ul,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -60,6 +66,7 @@ li {
 .menu_nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .menu_logo {
@@ -93,10 +100,6 @@ li {
   gap: 40px;
 }
 
-.menu_list_item {
-  margin-right: 40px;
-}
-
 .sidebar_nav {
   font-weight: 500;
   line-height: 1.5;
@@ -123,7 +126,7 @@ li {
 }
 .address {
   font-style: normal;
-  /* margin: auto; */
+  padding: 24px 0;
 }
 
 .address_menu_contakts:hover,
@@ -146,6 +149,7 @@ li {
   color: var(--white);
   max-width: 496px;
   margin: auto;
+  padding-bottom: 48px;
 }
 .main_button {
   background-color: var(--iris);
@@ -162,7 +166,6 @@ li {
   border-radius: 4px;
   margin: auto;
   cursor: pointer;
-  margin-top: 48px;
 }
 .main_button:hover,
 .main_button:focus {
